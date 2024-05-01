@@ -46,6 +46,7 @@ def F_refine(u):
     S = (u-x)/(y-x)
     step_fun = sigmoid(S)-sigmoid(S-1)
     FF = x* (1 - f(S) ) + y* (f(S))
+    # I made a change here  
     return (step_fun * FF  + (1- step_fun) * u )
 
 #plt.plot(uu)
