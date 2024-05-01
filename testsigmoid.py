@@ -2,6 +2,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 # second commit
+# thrid commit trying with pycharm
 def sigmoid(x):
   return 1 / (1 + np.exp(-x))
 
