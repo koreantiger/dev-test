@@ -28,7 +28,7 @@ def F_sigmoid(u, k):
     FF = x * (1 - f(S) ) + y* (f(S))
     return (step_fun * FF  + (1- step_fun) * u )
 
-
+# change again here 
 
 def F_normal(u):
     x = 0.3182
