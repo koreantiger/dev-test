@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 # second commit
 # thrid commit trying with pycharm
+# 4th commmit
+# given remote repo is different now.
 def sigmoid(x):
   return 1 / (1 + np.exp(-x))
 
