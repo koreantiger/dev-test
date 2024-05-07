@@ -13,6 +13,7 @@ def f(u):
     return  u ** 2 / (u ** 2 + 0.1 * (1 - u) ** 2)
 
 def sigmoid_steep(x):
+  # This is a change but in a different branch
   return 1 / (1 + np.exp(-x * 1e5))
 u = np.linspace(0,1,80)
 
